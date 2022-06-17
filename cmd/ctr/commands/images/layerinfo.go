@@ -24,8 +24,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
+	"github.com/containerd/containerd-api/platforms"
 	"github.com/containerd/containerd/cmd/ctr/commands"
-	"github.com/containerd/containerd/platforms"
 	"github.com/containerd/imgcrypt/images/encryption/parsehelpers"
 	"github.com/containers/ocicrypt"
 

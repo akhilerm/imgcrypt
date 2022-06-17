@@ -6,6 +6,7 @@ require (
 	github.com/Microsoft/go-winio v0.5.1
 	github.com/Microsoft/hcsshim v0.9.2
 	github.com/containerd/console v1.0.3
+	github.com/containerd/containerd-api v0.0.0
 	github.com/containerd/containerd v1.6.1
 	github.com/containerd/go-cni v1.1.3
 	github.com/containerd/typeurl v1.0.2
@@ -19,3 +20,5 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	google.golang.org/grpc v1.43.0
 )
+
+replace github.com/containerd/containerd-api => "/Users/makhil/go/src/github.com/containerd/containerd-api"
